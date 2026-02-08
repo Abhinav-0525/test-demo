@@ -33,7 +33,7 @@ export async function GET(request: NextRequest) {
 
     if (sessionError || !session) {
       return NextResponse.json(
-        { error: 'Unauthorized - Invalid or inactive session' },
+        { error: 'Unauthorized - Invalid or inactive session, please authenticate' },
         { status: 401 }
       );
     }
