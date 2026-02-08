@@ -25,7 +25,7 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'Modern Commercial Complex with new features',
+    title: 'Modern Commercial Complex with new features with lot of modern features',
     category: 'Commercial',
     image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop',
     description: 'State-of-the-art commercial building with sustainable design features',
