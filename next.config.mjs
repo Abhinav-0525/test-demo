@@ -1,6 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
-};
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
+    // Alternative configuration for Next.js versions that support it
+    domains: ['images.unsplash.com'],
+  },
+}
 
-export default nextConfig;
+export default nextConfig
